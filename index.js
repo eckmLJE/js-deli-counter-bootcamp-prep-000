@@ -8,7 +8,11 @@ function takeANumber(katzDeliLine, name) {
   return welcome;
 }
 
+<<<<<<< HEAD
 function nowServing(katzDeliLine) {
+=======
+function nowServing() {
+>>>>>>> d2122930be2951f44e97848c7a9ed7200b1afcbd
   var place = katzDeliLine.length;
   if (place > 0) {
     var serving = katzDeliLine.slice(0,1);
@@ -19,6 +23,7 @@ function nowServing(katzDeliLine) {
   }
 }
 
+<<<<<<< HEAD
 function currentLine(katz) {
 	var line = "The line is currently: 1. " + katz.slice(0,1);
 	if (katz.length === 1) {
@@ -31,4 +36,8 @@ function currentLine(katz) {
     } else {
 		return "The line is currently empty."
     }
+=======
+function currentLine() {
+  
+>>>>>>> d2122930be2951f44e97848c7a9ed7200b1afcbd
 }
